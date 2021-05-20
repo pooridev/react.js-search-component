@@ -1,0 +1,13 @@
+.App {
+  background-color: var(--search_background);
+  padding: 4rem 2rem;
+  width: 27rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 35rem;
+    padding: 4rem;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+}
+
+:root {
+  --main_background: #f2f0ff;
+  --search_background: #ffffff;
+  --economy_color: #6edddd;
+  --ticket_color: #fcc18a;
+  --bike_color: #a6cd74;
+  --property_color: #a68fff;
+  --cars_color: #8fbcff;
+  --boat_color: #ff8faa;
+  --search_color: #2b417b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: var(--main_background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
