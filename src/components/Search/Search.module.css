@@ -1,0 +1,41 @@
+.Search {
+  border-bottom: 1px solid var(--main_background);
+  position: relative;
+  padding-bottom: 0.3rem;
+}
+
+.SearchInput {
+  border: 0;
+  padding: 0.8rem 2rem;
+  color: var(--search_color);
+  width: 100%;
+}
+
+.SearchInput::placeholder {
+  color: var(--search_color);
+}
+
+.SearchIcon {
+  max-width: 1.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .SearchInput {
+    border: 0;
+    padding: 0.8rem 2.5rem;
+    color: var(--search_color);
+    width: 100%;
+    font-size: 1rem;
+  }
+
+
+  .SearchIcon {
+    max-width: 1.8rem;
+    position: absolute;
+    left: 0rem;
+    top: 0.4rem;
+  }
+}
