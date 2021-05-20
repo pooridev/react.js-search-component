@@ -1,0 +1,33 @@
+.Card {
+  position: relative;
+  border-radius: 0.6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Card:hover {
+  box-shadow: 1px 1px 15px inherit;
+}
+.CardDivider {
+  width: 65%;
+  height: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.CardImage {
+  max-height: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.CardTitle {
+  color: var(--search_color);
+  text-align: center;
+  font-weight: 500;
+}
+
+.CardDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+}

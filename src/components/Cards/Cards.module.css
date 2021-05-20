@@ -1,0 +1,16 @@
+.Cards {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .Cards {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
