@@ -1,8 +1,14 @@
 .App {
   background-color: var(--search_background);
   padding: 4rem 2rem;
-  width: 27rem;
+  width: 22rem;
   border-radius: 1rem;
+}
+
+@media (min-width: 499px) {
+  .App {
+    width: 27rem;
+  }
 }
 
 @media (min-width: 768px) {
