@@ -1,4 +1,4 @@
-export const CARDS_DETAILTS = [
+export const CARDS_DETAILS = [
   { title: 'Boat', image: 'assets/icons/boat.svg', themeColor: '#ff8faa' },
   { title: 'Cars', image: 'assets/icons/cars.svg', themeColor: '#8fbcff' },
   { title: 'Bike', image: 'assets/icons/bike.svg', themeColor: '#a6cd74' },

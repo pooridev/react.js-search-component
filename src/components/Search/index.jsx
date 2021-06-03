@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import classes from './Search.module.css';
 
-const Search = ({ onSearchHandler }) => {
+const Search = ({ onSearch }) => {
   const [inputValue, setInputValue] = useState('');
 
   const filterHandler = e => {
     setInputValue(e.target.value);
-    onSearchHandler(e);
+    onSearch(e);
   };
   return (
     <div className={classes.Search}>
