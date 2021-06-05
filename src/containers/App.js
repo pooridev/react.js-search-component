@@ -8,13 +8,15 @@ function App() {
   const [cards, setCards] = useState([...CARDS_DETAILS]);
 
   const searchHandler = ({ target }) => {
-    if (target.value === '') return setCards([...CARDS_DETAILS]);
-
+    const cards = [...CARDS_DETAILS];
     const filtredCards = cards.filter(card => {
       return card.title.toLowerCase().includes(target.value.toLowerCase());
     });
 
-    setCards(filtredCards);
+    setCards(prevCards => {
+      prevCards.length = 0;
+      return filtredCards;
+    });
   };
   return (
     <div className={classes.App}>
